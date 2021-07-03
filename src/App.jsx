@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
+import Counter from './Components/Counter';
 import './App.css';
-import ChildComponent from './03/ChildComponent';
 
-class App extends React.Component {
+class App extends Component {
   render() {
     return (
       <div>
-        <ChildComponent objValue={{ age : '20살'}}
-        requiredStringValue="문자"
-        />
+        <Counter />
       </div>
     );
   }
