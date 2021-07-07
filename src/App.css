@@ -1,5 +1,4 @@
 .App {
-  font-style: oblique;
-  font-weight: bold;
+  font-weight :unset;
   font-size : x-large;
 }
